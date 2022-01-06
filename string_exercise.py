@@ -19,8 +19,7 @@ ll = [ll[::-1] for ll in s]
 print('After reversing each word: ',' '.join(ll))
 #------------------------------------
 
-# wherever string has a number(n) it should be replaced by--
-# -- nth char after prior char to number 
+# wherever string has a number(n) it should be replaced by nth char after prior char to number 
 
 
 # i/p = 'a4k3b2'
@@ -40,7 +39,7 @@ print(ok)
 
 # ----------------------------------------------------
 
-# convert string having char then numbers from mixed alphanumeric string
+# convert alphanumeric string into a string having char then numbers 
 a ='a12b6c634'
 # expected o/p: abc126634
 s = []
